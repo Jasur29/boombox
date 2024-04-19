@@ -1,0 +1,58 @@
+.container1 {
+  display: flex;
+  justify-content: center;
+}
+.container2 {
+  width: 1400px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: space-between;
+}
+img {
+  width: 450px;
+  height: 250px;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.box {
+  border: 2px solid rgba(221, 215, 215, 0.9);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-top: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+p {
+  margin-top: 20px;
+  margin-left: 10px;
+}
+.button {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+}
+button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(47, 134, 255);
+  color: white;
+  border-radius: 6px;
+  margin: 10px;
+  width: 60px;
+  height: 40px;
+  border-style: none;
+}
+box1 {
+  width: 500px;
+  height: 500px;
+  transform: rotate(45deg);
+}
+.bokscha {
+  width: 400px;
+  height: 400px;
+  background-color: aqua;
+  transform: rotate(45deg);
+}
